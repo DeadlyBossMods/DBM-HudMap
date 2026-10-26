@@ -12,6 +12,7 @@
 ## URL: https://deadlybossmods.com
 ## SavedVariables: DBM_HudMap_Settings
 ## IconTexture: Interface\AddOns\DBM-Core\textures\dbm_airhorn
+## X-Curse-Project-ID: 1767596
 ## Version: @project-version@
 
 localization.en.lua
