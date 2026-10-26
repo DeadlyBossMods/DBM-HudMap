@@ -1,0 +1,10 @@
+{
+	"$schema": "https://raw.githubusercontent.com/sumneko/vscode-lua/master/setting/schema.json",
+	"runtime.version": "Lua 5.1",
+	"diagnostics.globals": [
+		"DBM_HUDMAP_L",
+		"DBM_HudMap_Settings",
+		"DBM_GUI",
+		"DBM_GUI_L"
+	]
+}

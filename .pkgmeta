@@ -1,0 +1,5 @@
+package-as: DBM-HudMap
+enable-nolib-creation: no
+
+move-folders:
+  DBM-HudMap/DBM-HudMap: DBM-HudMap

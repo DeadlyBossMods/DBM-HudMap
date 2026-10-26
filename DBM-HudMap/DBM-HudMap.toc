@@ -1,0 +1,30 @@
+## Interface: 11509, 16001, 20506, 30405, 38002, 40402, 50504, 120105, 120107
+## Category: DBM
+## Title:|cffffe00a<|r|cffff7d0aDBM Extra|r|cffffe00a>|r |cff69ccf0HudMap|r
+## Title-ruRU:|cffffe00a<|r|cffff7d0aDBM Дополнение|r|cffffe00a>|r |cff69ccf0HudMap|r
+## Notes: Optional on-screen HUD map for DBM and supported third-party addons
+## Notes-deDE: Optionale Bildschirm-HudMap für DBM und unterstützte Addons von Drittanbietern
+## Notes-ruRU: Необязательная экранная HudMap для DBM и поддерживаемых сторонних модификаций
+## LoadOnDemand: 0
+## RequiredDeps: DBM-Core
+## DefaultState: enabled
+## Author: MysticalOS
+## URL: https://deadlybossmods.com
+## SavedVariables: DBM_HudMap_Settings
+## IconTexture: Interface\AddOns\DBM-Core\textures\dbm_airhorn
+## Version: @project-version@
+
+localization.en.lua
+localization.de.lua
+localization.cn.lua
+localization.tw.lua
+localization.kr.lua
+localization.es.lua
+localization.fr.lua
+localization.it.lua
+localization.ru.lua
+localization.br.lua
+
+DBM-HudMap.lua
+Options.lua
+Commands.lua
