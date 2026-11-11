@@ -21,10 +21,12 @@ end
 ---@param enabled boolean
 function private:SetEnabled(enabled)
 	if not settings then return end
+	if settings.enabled == enabled then return end
 	settings.enabled = enabled
 	if not enabled then
 		DBM.HudMap:Disable()
 	end
+	self:NotifyEnabledChanged(enabled)
 end
 
 -- The HudMap toggle used to be the DBM-Core profile option DontShowHudMap2.

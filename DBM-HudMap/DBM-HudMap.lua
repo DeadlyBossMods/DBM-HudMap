@@ -9,7 +9,7 @@ local private = select(2, ...)
 
 ---@class DBMHudMap
 local mod =  {
-	Version = 2 -- That way external usage can querie hud api feature level of of users installed mod version
+	Version = 3 -- That way external usage can querie hud api feature level of of users installed mod version
 }
 
 DBM.HudMap = mod
@@ -24,6 +24,9 @@ local updateFrame
 local fixedOnUpdateRate = 0.03
 local onUpdate, Point, Edge
 local callbacks = CallbackHandler:New(mod)
+function private:NotifyEnabledChanged(enabled)
+	callbacks:Fire("EnabledChanged", enabled)
+end
 local activeMarkers = 0
 local disabling = false
 --Shared, stateless result for refused requests; fluent modifiers cannot revive UI.
