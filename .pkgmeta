@@ -1,5 +1,8 @@
 package-as: DBM-HudMap
 enable-nolib-creation: no
 
+required-dependencies:
+  - deadly-boss-mods
+
 move-folders:
   DBM-HudMap/DBM-HudMap: DBM-HudMap
