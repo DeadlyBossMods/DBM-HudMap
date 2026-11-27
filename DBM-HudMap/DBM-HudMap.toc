@@ -4,7 +4,7 @@
 ## Title-ruRU:|cffffe00a<|r|cffff7d0aDBM Дополнение|r|cffffe00a>|r |cff69ccf0HudMap|r
 ## Notes: Optional on-screen HUD map for DBM and supported third-party addons
 ## Notes-deDE: Optionale Bildschirm-HudMap für DBM und unterstützte Addons von Drittanbietern
-## Notes-ruRU: Необязательная экранная HudMap для DBM и поддерживаемых сторонних модификаций
+## Notes-ruRU: Дополнительная экранная карта HUD для DBM и поддерживаемых сторонних модификаций
 ## LoadOnDemand: 0
 ## RequiredDeps: DBM-Core
 ## DefaultState: enabled
